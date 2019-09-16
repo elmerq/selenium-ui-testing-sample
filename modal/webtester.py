@@ -1,4 +1,5 @@
 from time import sleep
+
 from selenium.webdriver import Firefox
 from selenium.webdriver.firefox.options import Options
 
