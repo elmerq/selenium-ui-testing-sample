@@ -10,7 +10,7 @@ class WebTester():
         # Create Browser
         opts = Options()
         
-        self.browser = Firefox()
+        self.browser = Firefox(opts)
         self.browser.get(TEST_SITE)
 
     def get_page_title(self):
